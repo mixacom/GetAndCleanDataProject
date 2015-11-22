@@ -49,8 +49,7 @@ meanstdSet$activity <- gsub(6, as.character(activities[6, 2]), meanstdSet$activi
 # reshape data frame by person and activity to a narrow form   
 meanstdSet$person <- as.factor(meanstdSet$person)
 meanstdSet$activity <- as.factor(meanstdSet$activity) 
-tds <- aggregate(meanstdSet, list(meanstdSet$person, meanstdSet$activity), mean) 
-tds <- tds[-c(3, 4)] 
+tds <- aggregate(meanstdSet[3:68], list(meanstdSet$person, meanstdSet$activity), mean) 
 colnames(tds)[c(1, 2)] <- c("Person", "Activity") 
 
 # save file for a submission 
