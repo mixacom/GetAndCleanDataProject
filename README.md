@@ -1,7 +1,7 @@
 
 ## Description of the project 
 
-This directory contains a data set obtained from accelerometer and gyroscope of comodity smartphone Samsung Galaxy S II and the detailed description of data transformation from a raw data set to a one that is ready for further processing. In the dataset one can find information about 30 subjects who perform one out of six activities while wearing smartphone on the waist. The set of performed activities are walking, walking upstairs, walking downstairs, sitting, standing and laying. Each subject and activity pair has a number of variables that contain a data collected from sensors. More detailed information about a data you can find in Codebook [https://github.com/mixacom/GetAndCleanDataProject/blob/master/codebook.md]. 
+This directory contains a data set obtained from accelerometer and gyroscope of comodity smartphone Samsung Galaxy S II and the detailed description of data transformation from a raw data set to a one that is ready for further processing. In the dataset one can find information about 30 subjects who perform one out of six activities while wearing smartphone on the waist. The set of performed activities are walking, walking upstairs, walking downstairs, sitting, standing and laying. Each subject and activity pair has a number of variables that contain a data collected from sensors. More detailed information about a data and transformation process you can find in Codebook [https://github.com/mixacom/GetAndCleanDataProject/blob/master/codebook.md]. 
 
 ### Raw data set 
 
@@ -19,7 +19,7 @@ The original data set has been collected by Reyes-Ortiz et al. and available at 
 
 More information availabe at cookbook [https://github.com/mixacom/GetAndCleanDataProject/blob/master/codebook.md]. 
 
-
+Tidy data set can be downloaded by clicking at this link https://github.com/mixacom/GetAndCleanDataProject/blob/master/tidy_set.txt 
 
 ## Reference  
 
