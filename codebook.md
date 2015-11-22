@@ -198,7 +198,10 @@ The magnitude of Fast Fourier Transform (FFT) that was applied to gyroscope sign
 
 The magnitude of Fast Fourier Transform (FFT) that was applied to gyroscope Jerk signals.
 
+## Measurement units 
 
-
+Features are normalized and bounded within [-1,1]. 
+The gyroscope units are rad/seg. 
+The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).  
 
 
