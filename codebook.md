@@ -2,9 +2,6 @@
 title: "Codebook for the Getting and Cleaning Data course project"
 author: "Mikhail Evchenko"
 date: "22.11.2015" 
-output:
-  html_document:
-    keep_md: yes
 ---
 
 ## Project Description
@@ -18,7 +15,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 ###Notes on the original (raw) data 
 The original dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
-The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'raw_features_info.txt' for more details. 
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See https://github.com/mixacom/GetAndCleanDataProject/blob/master/raw_features_info.txt for more details. 
 
 ##Creating the tidy datafile
 
@@ -44,7 +41,9 @@ Tidy data set is ready for analysis.
 More information and script can be found at the next link [https://github.com/mixacom/GetAndCleanDataProject/blob/master/readme.md]. 
 
 ##Description of the variables in the tiny_data.txt file
-'data.frame':	180 obs. of  68 variables:
+
+'data.frame':	180 obs. of  68 variables: 
+
  $ Person                     : Factor w/ 30 levels "1","2","3","4",..: 1 2 3 4 5 6 7 8 9 10 ...
  $ Activity                   : Factor w/ 6 levels "LAYING","SITTING",..: 1 1 1 1 1 1 1 1 1 1 ...
  $ tBodyAcc-mean()-X          : num  0.222 0.281 0.276 0.264 0.278 ...
