@@ -17,12 +17,6 @@ The original data set has been collected by Reyes-Ortiz et al. and available at 
 4. Select only mean and standard deviation columns from the original data set. 
 5. Combine features by subject and activity. 
 
-### Measurement units 
-
-The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2). 
-The gyroscope units are rad/seg. 
-Features are normalized and bounded within [-1,1]. 
-
 More information about data and cleaning process is availabe at cookbook [https://github.com/mixacom/GetAndCleanDataProject/blob/master/codebook.md]. 
 
 Cleaned data set can be downloaded by clicking at the following link https://github.com/mixacom/GetAndCleanDataProject/blob/master/tidy_set.txt 
